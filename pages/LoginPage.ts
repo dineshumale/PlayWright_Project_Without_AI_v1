@@ -38,6 +38,18 @@ export class LoginPage
         await this.login_Button.click()
     }
 
+
+   
+
+    async Login_Combine(email11:string,password11:string)
+    {
+        
+        await this.login_link.click();
+        await this.Email_Provided(email11)
+        await this.Password_Provided(password11)
+        await this.login_Button.click()
+    }
+
     async mylogo()
     {
         await expect(this.logo).toBeVisible()
