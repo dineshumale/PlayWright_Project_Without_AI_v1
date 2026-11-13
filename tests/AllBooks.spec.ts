@@ -1,4 +1,4 @@
-import{test} from '@playwright/test'
+import{test,expect} from '@playwright/test'
 import { BookDetails } from '../pages/AllBooks'
 import { Configuration } from '../utils/config'
 

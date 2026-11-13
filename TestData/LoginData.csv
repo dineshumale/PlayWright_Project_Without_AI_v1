@@ -1,0 +1,5 @@
+email,password,expectedResults
+dineshplaywrightautomation@gmail.com,Test@123,successful
+invalid@gmail.com,Wrong123,failed
+,test123,failed
+test2@gmail.com,,failed
