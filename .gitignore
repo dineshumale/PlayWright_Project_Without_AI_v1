@@ -1,5 +1,8 @@
-
-# Playwright
 node_modules/
-/test-results/
-/config.ts/
+playwright-report/
+test-results/
+blob-report/
+utils/config.ts
+.env
+.env.*
+!.env.example
